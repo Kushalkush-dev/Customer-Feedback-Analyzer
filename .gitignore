@@ -1,0 +1,31 @@
+.env
+.venv
+venv/
+
+# Environment secrets
+.env.*
+!.env.example
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Local SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Test, lint, and build output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# OS metadata
+.DS_Store
+Thumbs.db
